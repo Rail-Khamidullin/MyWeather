@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C01091937BF1DCCB285FC24 /* Pods_MyWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948BB56777EAAEF2A42DFEC5 /* Pods_MyWeather.framework */; };
+		334731BD2850C6E700C43BEB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 334731BC2850C6E700C43BEB /* .gitignore */; };
 		337B41992849EFE50082EFB5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337B41982849EFE50082EFB5 /* Constant.swift */; };
 		33D5C5032844C2D700159148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D5C5022844C2D700159148 /* AppDelegate.swift */; };
 		33D5C5072844C2D700159148 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D5C5062844C2D700159148 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		0DC8BB8C7DA963C30511219F /* Pods-MyWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeather.release.xcconfig"; path = "Target Support Files/Pods-MyWeather/Pods-MyWeather.release.xcconfig"; sourceTree = "<group>"; };
 		1C3FFD00BDB2CEBDFE7623A2 /* Pods-MyWeather-MyWeatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeather-MyWeatherUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyWeather-MyWeatherUITests/Pods-MyWeather-MyWeatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		30ADA652374E355F8DD71E46 /* Pods_MyWeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		334731BC2850C6E700C43BEB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		337B41982849EFE50082EFB5 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		33D5C4FF2844C2D700159148 /* MyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D5C5022844C2D700159148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		33D5C4F62844C2D700159148 = {
 			isa = PBXGroup;
 			children = (
+				334731BC2850C6E700C43BEB /* .gitignore */,
 				33D5C5012844C2D700159148 /* MyWeather */,
 				33D5C5182844C2DB00159148 /* MyWeatherTests */,
 				33D5C5232844C2DB00159148 /* MyWeatherUITests */,
@@ -325,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334731BD2850C6E700C43BEB /* .gitignore in Resources */,
 				33D5C50C2844C2DA00159148 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
